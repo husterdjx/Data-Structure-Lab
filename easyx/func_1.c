@@ -185,7 +185,7 @@ void func_polynomial_ShowListinReverse(Polynomial list) {
 }
 
 Polynomial InitPoly(double buffer[], int n) {
-	/*从输入的buffer数组构造多项式链表，传入参数为系数指数数组buffer，系数指数数目n*/
+	/*从输入的buffer数组构造多项式链表，传入参数为系数指数数组buffer，系数指数数目n。返回多项式指针*/
 	Polynomial list = (Polynomial)malloc(sizeof(struct Node));
 	InitHeader(list);
 
